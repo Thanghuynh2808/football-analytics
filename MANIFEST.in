@@ -1,0 +1,29 @@
+include README.md
+include LICENSE
+include requirements.txt
+include MANIFEST.in
+include setup.py
+
+# Include source code
+recursive-include src *.py
+
+# Include documentation
+recursive-include docs *.md *.rst *.txt
+
+# Include configuration files
+include *.yml *.yaml *.json *.cfg *.ini
+
+# Exclude certain files
+global-exclude *.pyc
+global-exclude *.pyo
+global-exclude *.pyd
+global-exclude __pycache__
+global-exclude *.so
+global-exclude *.dll
+
+# Exclude data files (they're too large for distribution)
+exclude data/raw/*
+exclude data/interim/*
+exclude data/processed/*
+exclude models/yolo/*.pt
+exclude models/classifier/*.pkl
