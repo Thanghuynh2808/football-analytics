@@ -207,7 +207,7 @@ Dự án này được phân phối dưới MIT License. Xem file `LICENSE` đ�
 
 ## Tác giả
 
-- **[Your Name]** - *Initial work*
+- **Huynh Thang** - *Initial work*
 
 ## Ghi nhận (Acknowledgments)
 
